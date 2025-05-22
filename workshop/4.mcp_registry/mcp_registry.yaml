@@ -1,0 +1,21 @@
+servers:
+  - name: arxiv
+    purpose: Search and extract information from arXiv papers
+    description: >
+      This MCP server provides tools to search for academic papers on arXiv
+      based on topics and extract detailed information about specific papers.
+      It can retrieve titles, authors, summaries, and publication dates.
+      Use this server for academic research, scientific papers, literature reviews,
+      finding research on topics like quantum computing, machine learning, physics,
+      computer science, and other scientific disciplines.
+    location: "http://127.0.0.1:8765/mcp/"
+    port: 8765
+
+  - name: websurfer
+    purpose: Help with finding information by searching the internet
+    description: >
+      This MCP server provides tools to search the internet to find general intelligence 
+      information and summarize the information for the user.  Use ths server when asked
+      about a generic question
+    location: "http://127.0.0.1:8767/mcp/"
+    port: 8767
